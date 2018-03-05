@@ -1,5 +1,7 @@
 # ng2-datepicker
 
+This is a forked version of the original ng2-datepicker package
+
 Angular 2+ Simple and minimal datepicker component
 
 [![AbstruseCI](https://ci.bleenco.io/badge/6)](https://ci.bleenco.io/repo/6)
@@ -17,7 +19,7 @@ Angular 2+ Simple and minimal datepicker component
 1. Install package from `npm`.
 
 ```sh
-npm install ng2-datepicker --save
+npm install aiesec-datepicker --save
 ```
 
 2. Include NgDatepickerModule into your application.
@@ -25,7 +27,7 @@ npm install ng2-datepicker --save
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgDatepickerModule } from 'ng2-datepicker';
+import { NgDatepickerModule } from 'aiesec-datepicker';
 
 @NgModule({
   imports: [
@@ -52,7 +54,7 @@ export class AppModule {}
 
 ## Options
 ```ts
-import { DatepickerOptions } from 'ng2-datepicker';
+import { DatepickerOptions } from 'aiesec-datepicker';
 import * as frLocale from 'date-fns/locale/fr';
 
 options: DatepickerOptions = {
@@ -79,7 +81,7 @@ In case you want to initialize with an empty value, just assign null to the mode
 1. Clone this repository
 
 ```sh
-git clone https://github.com/jkuri/ng2-datepicker.git
+git clone https://github.com/Manzurkds/ng2-datepicker.git
 cd ng2-datepicker
 ```
 
