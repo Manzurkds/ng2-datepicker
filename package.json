@@ -1,22 +1,22 @@
 {
-  "name": "ng2-datepicker",
-  "version": "2.2.4",
+  "name": "aiesec-datepicker",
+  "version": "1.0.0",
   "main": "./dist/bundles/ng2-datepicker.umd.js",
   "module": "./dist/ng2-datepicker.es5.js",
   "es2015": "./dist/ng2-datepicker.js",
   "typings": "./dist/ng2-datepicker.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bleenco/ng2-datepicker.git"
+    "url": "git+https://github.com/Manzurkds/ng2-datepicker.git"
   },
   "authors": [
-    "Jan Kuri <jkuri88@gmail.com>"
+    "Manzur Khan <manzurkds@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bleenco/ng2-datepicker/issues"
+    "url": "https://github.com/Manzurkds/ng2-datepicker/issues"
   },
-  "homepage": "https://github.com/bleenco/ng2-datepicker#readme",
+  "homepage": "https://github.com/Manzurkds/ng2-datepicker#readme",
   "scripts": {
     "clean": "rimraf dist dist-app",
     "prestart": "npm run clean",
@@ -39,17 +39,17 @@
     "prepublishOnly": "npm run build:lib"
   },
   "devDependencies": {
-    "@angular/animations": "^5.2.0",
-    "@angular/common": "^5.2.0",
-    "@angular/compiler": "^5.2.0",
-    "@angular/compiler-cli": "5.2.0",
-    "@angular/core": "^5.2.0",
-    "@angular/forms": "^5.2.0",
-    "@angular/http": "^5.2.0",
-    "@angular/platform-browser": "^5.2.0",
-    "@angular/platform-browser-dynamic": "^5.2.0",
-    "@angular/platform-server": "^5.2.0",
-    "@angular/router": "^5.2.0",
+    "@angular/animations": "5.1.1",
+    "@angular/common": "5.1.1",
+    "@angular/compiler": "5.1.1",
+    "@angular/compiler-cli": "5.1.1",
+    "@angular/core": "5.1.1",
+    "@angular/forms": "5.1.1",
+    "@angular/http": "5.1.1",
+    "@angular/platform-browser": "5.1.1",
+    "@angular/platform-browser-dynamic": "5.1.1",
+    "@angular/platform-server": "5.1.1",
+    "@angular/router": "5.1.1",
     "@ngtools/webpack": "^1.9.4",
     "@types/jasmine": "^2.8.4",
     "add-asset-html-webpack-plugin": "^2.1.2",
